@@ -16,10 +16,6 @@ function hideElement(element) {
   element.classList.add("animate__animated", "animate__fadeOut");
 }
 
-const section_1_content = document.getElementById("section_1_content");
-const section_2_content = document.getElementById("section_2_content");
-const section_3_content = document.getElementById("section_3_content");
-
 let video1 = document.getElementById("video1");
 let video2 = document.getElementById("video2");
 let section1 = document.getElementById("section_1");
