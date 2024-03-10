@@ -44,3 +44,7 @@ document.addEventListener("scroll", function () {
     showElement(video1);
   }
 });
+document.getElementById("video1").addEventListener("error", function () {
+  document.getElementById("video1").style.display = "none";
+  document.getElementById("video1_placeholder").style.display = "block";
+});
