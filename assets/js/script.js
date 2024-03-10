@@ -10,7 +10,7 @@ function showElement(element) {
 // Function to hide an element
 function hideElement(element) {
   // Remove old animation classes if present
-  element.classList.remove("animate__fadeIn");
+  element.classList.remove("animate__fadeIn", "hidden");
 
   // Add animation class to fade out
   element.classList.add("animate__animated", "animate__fadeOut");
