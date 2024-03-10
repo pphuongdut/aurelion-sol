@@ -36,7 +36,7 @@ body::-webkit-scrollbar {
 }
 
 .section-1 {
-  background: url("/assets/img/object/");
+  background: url("/assets/img/logo.jpg");
   z-index: 1;
 }
 
